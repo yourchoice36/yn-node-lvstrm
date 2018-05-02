@@ -11,7 +11,7 @@
     "socket",
     "io"
   ],
-  "main": "./lib/index",
+  
   "files": [
     "lib/"
   ],
@@ -20,9 +20,11 @@
     "type": "git",
     "url": "git://github.com/socketio/socket.io"
   },
+  
   "scripts": {
-    "test": "nyc mocha --reporter spec --slow 200 --bail --timeout 10000 test/socket.io.js"
-  },
+  "start": "node server.js"
+},
+"main": "server.js",
   "dependencies": {
     "debug": "~3.1.0",
     "engine.io": "~3.2.0",
