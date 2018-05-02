@@ -22,7 +22,7 @@
   },
   
   "scripts": {
-  "start": "node server.js"
+  "start": "node node-livestreaming/server.js"
 },
 "main": "server.js",
   "dependencies": {
